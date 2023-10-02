@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_shiftleft_c_demo_1696271206370-pr-trigger-input-set
+  identifier: Build_shiftleft_c_demo_1696271206370prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HARQwietc
+  pipeline:
+    identifier: Build_shiftleft_c_demo_1696271206370
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
