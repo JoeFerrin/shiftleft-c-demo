@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_shiftleft_c_demo_1696271206370-push-trigger-input-set
+  identifier: Build_shiftleft_c_demo_1696271206370pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HARQwietc
+  pipeline:
+    identifier: Build_shiftleft_c_demo_1696271206370
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
